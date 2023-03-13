@@ -1,0 +1,235 @@
+/* sayt fonts start */
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/inter500.woff2") format("woff2"),
+    url("../fonts/inter500.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Crimson Pro";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/crimsonproregular.woff2") format("woff2"),
+    url("../fonts/crimsonproregular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Crimson Pro";
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/crimsonpro700.woff2") format("woff2"),
+    url("../fonts/crimsonpro700.woff") format("woff");
+}
+
+/* sayt fonts finish */
+
+/* site style started */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Crimson Pro", sans-serif;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.hero-wrapper {
+  position: relative;
+}
+
+.hero-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  padding: 30px 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.hero__top-navigation {
+  margin-left: auto;
+}
+
+.hero__top-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 24px;
+  line-height: 20px;
+  color: #000;
+  opacity: 0.6;
+}
+
+.hero__top-link:hover {
+  opacity: 1;
+}
+
+.hero__top-link::before {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  background-image: url("../images/vector.svg");
+  background-size: 20;
+  background-repeat: no-repeat;
+  content: " ";
+}
+
+.hero__top-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 55px;
+}
+
+.hero__item-link {
+  font-size: 24px;
+  line-height: 20px;
+  color: #00000080;
+}
+
+.hero__item-link:hover {
+  color: #000;
+}
+
+.hero-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero__end_text-box {
+  width: 820px;
+  padding-right: 100px;
+}
+
+.heading-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.heading-box::after {
+  display: block;
+  width: 250px;
+  height: 6px;
+  margin-bottom: 65px;
+  background-color: #000;
+  content: "";
+}
+
+.hero__end-heading {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 100%;
+  color: #000;
+}
+
+.hero__end-paragrph {
+  margin-top: 0;
+  margin-bottom: 37px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #000;
+}
+
+.hero__end-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.hero__end_box-paragrph {
+  margin: 0;
+  width: 400px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 160%;
+  color: #000;
+}
+
+.hero__end-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.hero__end-link::after {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  background-image: url("../images/vector1.svg");
+  background-size: 20;
+  background-repeat: no-repeat;
+  content: " ";
+}
+
+/* the site is out of style */
